@@ -1,0 +1,144 @@
+/* These styles are just to make it easier to see the blocks, initially. */
+@font-face {
+  font-family: Limelight;
+  src: url(Limelight-Regular.ttf);
+}
+
+@font-face {
+  font-family: Lora;
+  src: url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+}
+
+h1 {
+font-family: Limelight;
+color: white;
+font-size: 60px;
+padding-bottom: 40px;
+text-align: center;
+margin-bottom: 30px;
+margin-top:10px;
+}
+
+* {
+margin:auto;
+padding: auto;
+overflow-x: hidden;
+overflow-y: scroll;
+font-family: sans-serif;
+color: white;
+}
+
+body {
+	background-color: black;
+	font-family: Lora;
+	font-size: 20px;
+	padding: 40px;
+	margin-left: 10px;
+}
+
+figure:hover{
+	color: white;
+}
+
+a {
+	color: royalblue;
+}
+p{
+	color: white;
+}
+section,
+figure {
+	margin-top: 80px;
+	/* max-width: 600px; */
+}
+
+
+.image-block {
+  background-color;
+	width: 300px;
+  height: 400px;
+  margin: 10px;
+}
+
+.embed-block {
+	width: 400px;
+  height: 400px;
+  margin: 10px;
+}
+
+.link-block {
+	width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+.pdf-block {
+	width: 300px;
+  height: 00px;
+  margin: 10px;
+}
+
+.text-block {
+	width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+.video-embed-block {
+	width: 400px;
+  height: 400px;
+  margin: 10px;
+}
+
+.test-class{
+	padding: 50px;
+  background-color: black;
+  width: 100%;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+column-gap:60px;
+align-content: flex-start;
+}
+
+/* .test-class{
+  background-color: red;
+  width: 100%;
+  width: fit-content;
+  height: fit-content;
+  display: grid;
+	grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: auto;
+	column-gap: 15px;
+  row-gap: 15px;
+	justify-content: stretch;
+} */
+
+.title{
+	margin-top: 10px;
+}
+
+.link-title{
+	color: black;
+}
+
+figure {
+	background-color: black;
+  style: float;
+	width: 100%;
+	display: block;
+	height: 0;
+	padding-bottom: 35%;
+	margin-top: 10px;
+	position: relative;
+	overflow-y: hidden;
+}
+
+
+
+
+
+/* Clear them out once you’ve got your channel plugged in! */
