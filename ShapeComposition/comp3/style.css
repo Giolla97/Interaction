@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 40px;
+  background-color: #white;
+  font-family: arial;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+p, a {
+  text-align: center;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.outer {
+  width: 600px;
+  height: 600px;
+  background-color: black;
+  margin: 0 auto;
+  font-size: 0;
+  position: relative;
+}
+
+.column {
+  background-color: white;
+  width: 100px;
+  height: 400px;
+  display: inline-block;
+  position: relative;
+}
+
+.col1 {
+  top: 0;
+
+}
+
+.col2 {
+  top: 100px;
+  left: 200px;
+  width: 50px;
+  height: 400px;
+
+}
+
+.col3 {
+  left: 350px;
+  top: 200px;
+}

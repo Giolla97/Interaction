@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 40px;
+  background-color: #eee;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+p, a {
+  text-align: center;
+  display: block;
+  margin-bottom: 40px;
+}
+
+
+.outer {
+  width: 700px;
+  height: 600px;
+  background-color: #680000;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.column {
+  background-color: #D80000;
+  height: 600px;
+  width: 100px;
+  margin-left: 35px;
+}
+
+
+.top {
+  background-color: #FF0000;
+  height: 100px;
+}
+
+
+.left {
+  float: left;
+  background-color: #A00000;
+}
+
+.right {
+  float: right;
+  height: 500px;
+}
+
+.bottom {
+  background-color: #C00000;
+  height: 100px;
+  margin-top: 400px;
+}

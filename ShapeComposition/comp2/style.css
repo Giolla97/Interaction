@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 40px;
+  background-color: #eee;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+p, a {
+  text-align: center;
+  display: block;
+  margin-bottom: 40px;
+}
+
+body {
+  margin: 0px;
+  padding: 70px;
+  background-color: #black;
+}
+
+p, a {
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.outer {
+  width: 600px;
+  height: 600px;
+  background-color: black;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.inner1 {
+  background-color: blue;
+  height: 650px;
+  width: 50px;
+
+  float: left;
+}
+
+.inner2 {
+  background-color: yellow;
+  width: 650px;
+  height: 50px;
+  float: center;
+}
+
+.inner3 {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+
+  margin-left: 275px;
+  margin-top: 200px;
+  float: center;
+}
+
+.inner4 {
+  background-color: green;
+  width: 650px;
+  height: 50px;
+  float: center;
+  margin-top: 200px;
+}
+
+.inner5 {
+  background-color: red;
+  width: 50px;
+  height: 650px;
+  float: right;
+
+}
